@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -15,12 +19,25 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+
+.ubuntu{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+@layer components{
+  *{
+    @apply duration-300 !important;
   }
-  body {
-    color: white;
-    background: black;
+  .btn{
+    @apply rounded-none;
+  }
+
+  .mark{
+    @apply outline-dashed outline-red-500;
+  }
+
+  .slide{
+    @apply h-44;
   }
 }
