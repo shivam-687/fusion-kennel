@@ -10,6 +10,7 @@ export type Dog = {
     description?: string;
     gallery?: string[],
     details?: string;
+    intro_video?: string;
 }
 
 const Dogs: Dog[] = [
@@ -22,6 +23,7 @@ const Dogs: Dog[] = [
         image: '/assets/images/dogs/max.jpg',
         isForAdoption: false,
         weight: '35 kg',
+        intro_video: 'https://youtu.be/9iPMlLgYwsg',
         gallery: [
             '/assets/images/dogs/max-gm-1.jpg',
             '/assets/images/dogs/max-gm-2.jpg',
@@ -66,6 +68,7 @@ const Dogs: Dog[] = [
             '/assets/images/dogs/becca-gm-5.webp',
             '/assets/images/dogs/becca-gm-6.jpg',
         ],
+        intro_video: 'https://youtu.be/RVSz19clh8M',
         details: `
         <h2>About Becca</h2>
         <p>When our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures.</p>
@@ -99,6 +102,7 @@ const Dogs: Dog[] = [
             '/assets/images/dogs/duke-gm-5.jpg',
             '/assets/images/dogs/duke-gm-6.jpg',
         ],
+        intro_video: 'https://youtu.be/P48G1k56mvE',
         details: `
         <h2>About Duke</h2>
         <p>When our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures.</p>
@@ -132,6 +136,7 @@ const Dogs: Dog[] = [
             '/assets/images/dogs/tyson-gm-5.jpg',
             '/assets/images/dogs/tyson-gm-6.jpg',
         ],
+        intro_video: 'https://youtu.be/2hV-b63Pigc',
         details: `
         <h2>About Tyson</h2>
         <p>When our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures.</p>
@@ -165,6 +170,7 @@ const Dogs: Dog[] = [
             '/assets/images/dogs/lexi-gm-5.jpg',
             '/assets/images/dogs/lexi-gm-6.jpg',
         ],
+        intro_video: 'https://youtu.be/8nY5VgXp3hc',
         details: `
         <h2>About Lexi</h2>
         <p>When our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures.</p>
@@ -184,7 +190,7 @@ const Dogs: Dog[] = [
     {
         id: '6',
         name: 'Ricky',
-        breed: 'German Sephord',
+        breed: 'German Shepherd',
         age: '1 year',
         gender: 'male',
         image: '/assets/images/dogs/Ricky.jpg',
@@ -198,6 +204,7 @@ const Dogs: Dog[] = [
             '/assets/images/dogs/ricky-gm-5.jpg',
             '/assets/images/dogs/ricky-gm-6.jpg',
         ],
+        intro_video: 'https://youtu.be/_cSNWGmN1KI',
         details: `
         <h2>Ricky Max</h2>
         <p>When our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures.</p>

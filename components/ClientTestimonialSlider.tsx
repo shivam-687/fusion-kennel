@@ -20,7 +20,6 @@ function ClientTestimonialSlider() {
 
     useEffect(() => {
       setClientSlides(Content.clientTestimonial);
-    
     }, [])
     
 
@@ -33,12 +32,17 @@ function ClientTestimonialSlider() {
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
                     spaceBetween={50}
-                    slidesPerView={2}
+                    slidesPerView={1}
                     // navigation
                     // pagination={{ clickable: true }}
                     // scrollbar={{ draggable: true }}
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
+                    breakpoints={{
+                        620:{
+                            slidesPerView: 2
+                        }
+                    }}
                 >
                     {
                         clientSlide.map((cs, index) => {

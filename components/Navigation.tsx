@@ -37,7 +37,7 @@ const Navigation = () => {
         },
         {
             lable: 'For Adoption',
-            link: '/for-adoption'
+            link: '/puppies'
         },
         {
             lable: 'Gallery',

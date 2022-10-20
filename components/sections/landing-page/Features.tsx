@@ -5,15 +5,15 @@ function Features() {
 
     const featureList = [
         {
-            title: 'Health Warrenty',
+            title: 'Health Guarantee',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sociis et, sit sapien semper sit cras pretium eget. Aliquet in sed vestibulum elementum magna'
         },
         {
-            title: 'Reputable Breeder',
+            title: 'Pure Bloodline',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sociis et, sit sapien semper sit cras pretium eget. Aliquet in sed vestibulum elementum magna'
         },
         {
-            title: 'Free Support',
+            title: 'Consult Support',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sociis et, sit sapien semper sit cras pretium eget. Aliquet in sed vestibulum elementum magna'
         },
 

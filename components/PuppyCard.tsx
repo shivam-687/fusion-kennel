@@ -22,7 +22,7 @@ function PuppyCard(props: PuppyCardProps) {
                     <p className='text-base text-gray-400'>{props.age}</p>
                 </div>
                 {/* <p className='text-gray-400 mb-5'>{props.breed}</p> */}
-                <NavLink href={`#`}>
+                <NavLink href={'/puppies/'+props.id}>
                     <a className='btn btn-secondary'>Details</a>
                 </NavLink>
             </div>

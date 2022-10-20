@@ -40,4 +40,8 @@ a {
   .slide{
     @apply h-44;
   }
+
+  .input, .select{
+    @apply rounded-none
+  }
 }

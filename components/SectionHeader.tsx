@@ -5,12 +5,13 @@ import SectionTitle from './SectionTitle'
 export type SectionHeaderProps = {
     link?: string,
     linkText?: string
-    title: string
+    title: string,
+    className?: string
 }
 
 function SectionHeader(props: SectionHeaderProps) {
   return (
-    <div className='w-full flex items-center justify-between mb-14'>
+    <div className={`${props.className} w-full flex items-center justify-between mb-14`}>
         <SectionTitle>{props.title}</SectionTitle>
         {
             props.link && <NavLink href={props.link}>

@@ -62,6 +62,13 @@ const Content = {
         title: 'Need A sweet heart?',
         text: `Faucibus arcu ornare quis lacus, sit sit. At nulla aliquam sed pretium ornare feugiat. Consectetur nisi ut nibh adipiscing id. Id sit eros, malesuada sed sit fusce nibh. `,
         image: '/assets/images/dog-pic-transparent.png'
+    },
+    contacts: {
+        address: 'Chiraiyakot, mau, Uttar Pradesh (276129)',
+        email: 'shivam@interlef.com',
+        phone: '+91 7984226239',
+        whatsapp: '+91 7984226239',
+        image: '/assets/images/contact-us-img.jpg'
     }
 }
 

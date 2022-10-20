@@ -22,10 +22,11 @@ const Home: NextPage = () => {
     <AboutUs/>
     <Puppies/>
     <OurDogs/>
-    <WhyChooseUs/>
-    {/* <Memories/> */}
-    <ClientTestimonialSlider/>
+    <WhyChooseUs/> 
+    <Memories/>
+   <ClientTestimonialSlider/>
     <ClickBait/>
+    
     </>
   )
 }
