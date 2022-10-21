@@ -49,7 +49,7 @@ const Navigation = () => {
         },
         {
             lable: 'About Us',
-            link: '/about-us'
+            link: '/about'
         }
     ];
 

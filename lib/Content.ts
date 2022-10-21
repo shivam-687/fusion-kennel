@@ -69,7 +69,10 @@ const Content = {
         phone: '+91 7984226239',
         whatsapp: '+91 7984226239',
         image: '/assets/images/contact-us-img.jpg'
-    }
+    },
+    // aboutUs: {
+    //     title: 
+    // }
 }
 
 export default Content;
