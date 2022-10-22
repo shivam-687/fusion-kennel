@@ -30,9 +30,9 @@ const OurDogs: NextPage<{ dogs: Dog[] }> = ({ dogs }) => {
                         }
                     </div>
 
-                    <div className='py-10'>
-                        <ClickBait />
-                    </div>
+                </div>
+                <div className='pt-10'>
+                    <ClickBait />
                 </div>
             </section>
         </>

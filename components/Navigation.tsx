@@ -61,7 +61,7 @@ const Navigation = () => {
         <nav className={`relative`} >
             <div className={`navigation w-full z-40 ${inView ? 'relative bg-primary/5' : 'fixed top-0 left-0 w-full bg-white shadow-md shadow-primary/20'}`}>
                 <div className="w-full">
-                    <div className="container mx-auto py-2 flex items-center px-5">
+                    <div className="md:container mx-auto py-2 flex items-center px-5">
                         <div className="logo-container  flex-grow-0">
                             <Image src={desktopLogo} alt="poochies kennel logo" width={150} height={49}></Image>
                         </div>

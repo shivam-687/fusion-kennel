@@ -16,7 +16,7 @@ export type ContactUsProps = {
 const ContactUs: NextPage<{ contact: ContactUsProps }> = ({ contact }) => {
     return (
         <section className='bg-primary/10 min-h-screen flex items-center'>
-            <div  className=' container mx-auto px-5 py-20'>
+            <div  className=' container mx-auto sm:px-20 md:px-40  py-20'>
                 <div className='bg-white grid grid-cols-1 md:grid-cols-3 gap-2'>
                     <div className="flex md:col-span-2 items-center justify-center bg-center bg-cover h-80 md:h-auto backdrop-filter backdrop-blu relative" style={{ backgroundImage: `url(${contact.image})` }}>
                         <div className=" p-2 absolute w-full h-full bg-black/20 flex  justify-center items-center gap-2 text-white">
@@ -37,7 +37,7 @@ const ContactUs: NextPage<{ contact: ContactUsProps }> = ({ contact }) => {
                         </div>
                     </div>
 
-                    <div className='mt-5 md:mt-0 flex items-center'>
+                    <div className='mt-5 md:mt-0 flex items-center p-5'>
                         <div className="w-full"><ContactUsForm /></div>
                     </div>
                 </div>
