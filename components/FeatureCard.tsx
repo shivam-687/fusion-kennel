@@ -12,7 +12,7 @@ function FeatureCard(props: FeatureCardProp) {
     <div className='border border-gray-400 flex flex-col items-center gap-5 p-5'>
         <span className={`w-14 h-14 relative inline-block ${props.icon ? '':'bg-gray-300'}`}>
             {
-                props.icon && <Image src={props.icon} alt={props.title} layout="fill" objectFit="cover"></Image>
+                props.icon && <Image src={props.icon} alt={props.title} layout="fill" objectFit="contain"></Image>
             }
         </span>
 

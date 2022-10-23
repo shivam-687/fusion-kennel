@@ -12,7 +12,9 @@ function OurDogs() {
             return {
                 image: d.image,
                 breed: d.breed,
-                name: d.name
+                name: d.name,
+                gender: d.gender,
+                id: d.id
             } as DogCardProps;
         });
         setDogs(prev => [...pp])

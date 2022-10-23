@@ -5,6 +5,7 @@ import { Dog, DogApi } from '../../lib/Dogs'
 import SectionHeader from '../../components/SectionHeader';
 import DogInfoCard, { DogInfoCardProps } from '../../components/DogInfoCard';
 import SectionTitle from '../../components/SectionTitle';
+import Gallery from '../../components/Gallery';
 
 const ShowDog: NextPage<{ dog: Dog }> = ({ dog }) => {
 
@@ -40,6 +41,10 @@ const ShowDog: NextPage<{ dog: Dog }> = ({ dog }) => {
                         <div className="hidden md:pl-10 md:flex justify-end">
                             <DogInfoCard {...dog} weight={dog.weight || ''} />
                         </div>
+                    </div>
+
+                    <div className="my-20 ">
+                        <Gallery gallery={dog.gallery||[]}/>
                     </div>
                 </div>
             </section>

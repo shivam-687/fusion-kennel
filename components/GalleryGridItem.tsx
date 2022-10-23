@@ -2,7 +2,9 @@ import React, { Children, PropsWithChildren } from 'react'
 
 export type GalleryGridItemProps = {
     image: string;
+    effect?: boolean
 }
+
 
 function GalleryGridItem(props: PropsWithChildren<GalleryGridItemProps>) {
     const child = Children.only(props.children) as React.ReactElement;

@@ -11,6 +11,7 @@ export type Dog = {
     gallery?: string[],
     details?: string;
     intro_video?: string;
+    kciCertified?: boolean;
 }
 
 const Dogs: Dog[] = [
@@ -21,6 +22,7 @@ const Dogs: Dog[] = [
         age: '4 years',
         gender: 'male',
         image: '/assets/images/dogs/max.jpg',
+        kciCertified: true,
         isForAdoption: false,
         weight: '35 kg',
         intro_video: 'https://youtu.be/9iPMlLgYwsg',
@@ -58,6 +60,7 @@ const Dogs: Dog[] = [
         age: '1 years',
         gender: 'female',
         image: '/assets/images/dogs/Becca.jpg',
+        kciCertified: true,
         isForAdoption: false,
         weight: '30 kg',
         gallery: [
@@ -91,6 +94,7 @@ const Dogs: Dog[] = [
         breed: 'Golden Retreiver',
         age: '2 years',
         gender: 'male',
+        kciCertified: true,
         image: '/assets/images/dogs/Duke-2.jpg',
         isForAdoption: false,
         weight: '33 kg',
@@ -125,6 +129,7 @@ const Dogs: Dog[] = [
         breed: 'Rottweiler ',
         age: '4 years',
         gender: 'male',
+        kciCertified: true,
         image: '/assets/images/dogs/Tyson.webp',
         isForAdoption: false,
         weight: "38 kg",
@@ -157,6 +162,7 @@ const Dogs: Dog[] = [
         id: '5',
         name: 'Lexi',
         breed: 'Beagel',
+        kciCertified: true,
         age: '8 months',
         gender: 'female',
         image: '/assets/images/dogs/Lexi.jpg',
@@ -193,6 +199,7 @@ const Dogs: Dog[] = [
         breed: 'German Shepherd',
         age: '1 year',
         gender: 'male',
+        kciCertified: true,
         image: '/assets/images/dogs/Ricky.jpg',
         isForAdoption: false,
         weight: '36 kg',
@@ -227,6 +234,7 @@ const Dogs: Dog[] = [
         breed: 'Rottwiler',
         age: '2 months',
         gender: 'male and female',
+        kciCertified: true,
         image: '/assets/images/puppies/rp-1.jpg',
         isForAdoption: true,
         weight: '3kg - 4kg',
@@ -248,6 +256,7 @@ const Dogs: Dog[] = [
         breed: 'Golden Retriver',
         age: '2 months',
         gender: 'male and female',
+        kciCertified: true,
         image: '/assets/images/puppies/gr-1.jpg',
         isForAdoption: true,
         weight: '3kg - 4kg',
@@ -268,6 +277,7 @@ const Dogs: Dog[] = [
         name: 'Labrador Puppies',
         breed: 'Labrador',
         age: '2 months',
+        kciCertified: true,
         gender: 'male and female',
         image: '/assets/images/puppies/lab-1.jpg',
         isForAdoption: true,
@@ -289,6 +299,7 @@ const Dogs: Dog[] = [
         name: 'Beagel Puppies',
         breed: 'Beagel',
         age: '2 months',
+        kciCertified: true,
         gender: 'male and female',
         image: '/assets/images/puppies/bg-1.jpg',
         isForAdoption: true,
@@ -310,6 +321,7 @@ const Dogs: Dog[] = [
         name: 'Greate Dane Puppies',
         breed: 'Greate Dane',
         age: '2 months',
+        kciCertified: true,
         gender: 'male and female',
         image: '/assets/images/puppies/gd-1.jpg',
         isForAdoption: true,

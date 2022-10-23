@@ -15,8 +15,8 @@ function Memories() {
 
     return (
         <section className='px-5 mt-40'>
-            <SectionHeader title='Memories' link='#' />
             <div className="container mx-auto">
+            <SectionHeader title='Memories' link='#' />
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-2 min-h-[calc(100vh-100px)]">
                     <div className="aspect-square md:aspect-auto md:row-span-2 md:col-start-1 md:col-end-3">
                         <GalleryGridItem image={images[0]}>
@@ -24,27 +24,27 @@ function Memories() {
                         </GalleryGridItem>
                     </div>
                     <div className="aspect-square md:aspect-auto md:col-start-3 md:col-span-2">
-                        <GalleryGridItem image={images[0]}>
+                        <GalleryGridItem image={images[1]}>
                             <div></div>
                         </GalleryGridItem>
                     </div>
                     <div className="aspect-square md:aspect-auto md:col-start-3 md:col-span-2">
-                        <GalleryGridItem image={images[0]}>
+                        <GalleryGridItem image={images[2]}>
                             <div></div>
                         </GalleryGridItem>
                     </div>
                     <div className="aspect-square md:aspect-auto">
-                        <GalleryGridItem image={images[0]}>
+                        <GalleryGridItem image={images[3]}>
                             <div></div>
                         </GalleryGridItem>
                     </div>
                     <div className="aspect-square md:aspect-auto">
-                        <GalleryGridItem image={images[0]}>
+                        <GalleryGridItem image={images[4]}>
                             <div></div>
                         </GalleryGridItem>
                     </div>
                     <div className="aspect-square md:aspect-auto">
-                        <GalleryGridItem image={images[0]}>
+                        <GalleryGridItem image={images[5]}>
                             <div></div>
                         </GalleryGridItem>
                     </div>

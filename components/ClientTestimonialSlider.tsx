@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, } from 'swiper';
 
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 
@@ -30,7 +30,7 @@ function ClientTestimonialSlider() {
                 <div className="flex items-center justify-center mb-10"><SectionTitle>What Our Client Say</SectionTitle></div>
                 <Swiper
                     // install Swiper modules
-                    modules={[Navigation, Pagination, Scrollbar, A11y]}
+                    modules={[Navigation, Pagination, Scrollbar, A11y,]}
                     spaceBetween={50}
                     slidesPerView={1}
                     // navigation
@@ -46,7 +46,7 @@ function ClientTestimonialSlider() {
                 >
                     {
                         clientSlide.map((cs, index) => {
-                            return  <SwiperSlide key={index}><div className=''><ClientTestimonialSlide {...cs} /></div></SwiperSlide>
+                            return  <SwiperSlide key={index} className="p-5"><div className='flex justify-center'><ClientTestimonialSlide {...cs} /></div></SwiperSlide>
                         })
                     }
                    

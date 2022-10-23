@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ClickBait from '../components/ClickBait';
 import Memories from '../components/sections/landing-page/Memories';
+import Content from '../lib/Content';
 
 const about: NextPage = () => {
     return (
@@ -13,14 +14,16 @@ const about: NextPage = () => {
         </Head>
         <section>
             <div className="container mx-auto px-5">
-                <div className="grid grid-cols-1 md:grid-cols-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 mt-10">
                     <div className='flex flex-col justify-center items-center'>
-                        <div className="max-w-md w-full flex flex-col gap-5">
+                        <div className=" w-full flex flex-col gap-5 px-5">
                             <h1 className='text-4xl font-bold ubuntu '>We love dogs.</h1>
-                            <p className='text-base text-gray-500'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum vero alias quisquam pariatur totam eius dolorem esse, expedita, excepturi minima sapiente officiis explicabo dolor quidem. Voluptatum dignissimos in mollitia placeat.</p>
+                            <p className='text-base text-gray-500'>{Content.aboutUs.text}</p>
+                            <div>
                             <Link href={'/contact-us'}>
                                 <a className='btn btn-primary'>Get Callback</a>
                             </Link>
+                            </div>
                         </div>
                     </div>
                     <div className='relative'>
@@ -32,10 +35,12 @@ const about: NextPage = () => {
             </div>
         </section>
 
-        <section className='container mx-auto px-5 mb-20'>
+        <section className='container mx-auto px-5'>
             <Memories/>
         </section>
+        <div className='mt-60'>
         <ClickBait/>
+        </div>
         </>
     );
 }

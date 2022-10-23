@@ -4,11 +4,12 @@ import { useEffect, useState } from 'react'
 import SectionHeader from '../components/SectionHeader'
 import { DogApi } from '../lib/Dogs'
 import Image from 'next/image';
+import Gallery from '../components/Gallery'
 
 const OurPuppies: NextPage<{ dogPics: string[] }> = ({ dogPics }) => {
 
     useEffect(() => {
-        console.log('Gallery: ', dogPics)
+        // console.log('Gallery: ', dogPics)
     }, [dogPics])
 
     return (
@@ -20,17 +21,18 @@ const OurPuppies: NextPage<{ dogPics: string[] }> = ({ dogPics }) => {
                 <div className="container mx-auto px-5 mt-20">
                     <SectionHeader title='Our Dogs' />
 
-                    <div className="mt-20 grid grid-cols-1 gap-2 xs:gap-3 md:gap-5 sm:grid-cols-2 mg:grid-col-3 lg:grid-cols-4">
-                        {
+                    <div className="mt-20">
+                        {/* {
                             dogPics.map((dogImage, index) => {
                                 return <div key={index} className='bg-gray-200 break-inside-avoid-column relative'>
                                     <div className=" dog-image aspect-square relative w-full hover:border-primary shadow-none transition hover:shadow-lg hover:shadow-primary/20">
                                        <Image src={dogImage} alt={dogImage} layout="fill" objectFit="cover"></Image>
                                     </div>
-                                    {/* <Image src={dogImage} alt={dogImage} layout="fill" objectFit="cover"></Image> */}
+                                    
                                 </div>
                             })
-                        }
+                        } */}
+                        <Gallery gallery={dogPics} />
                     </div>
                 </div>
             </section>

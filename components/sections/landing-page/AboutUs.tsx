@@ -30,7 +30,7 @@ function AboutUs() {
                     <div className='flex justify-center'>
                         <div className='lg:max-w-lg w-full relative h-min'>
                             <div className="dog-image aspect-square relative w-full overflow-hidden">
-                                <Image src={image} alt="" layout="fill" objectFit="cover"></Image>
+                                <Image src={Content.landingAbout.image} alt="" layout="fill" objectFit="cover"></Image>
                             </div>
                             <div className="absolute w-64 h-64 -right-4 -bottom-4 bg-gradient-to-tr from-primary to-accent -z-10 blur-sm"></div>
                         </div>

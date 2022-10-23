@@ -22,6 +22,12 @@ module.exports = {
       },
       aspectRatio:{
         'portrait': '2/3'
+      },
+      lineClamp: {
+        7: '7',
+        8: '8',
+        9: '9',
+        10: '10',
       }
     },
   },

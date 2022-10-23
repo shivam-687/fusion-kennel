@@ -9,7 +9,7 @@ function Layout(props: React.PropsWithChildren<{}>) {
     {
         props.children
     }
-    <Footer/>
+    <Footer />
     </>
   )
 }
