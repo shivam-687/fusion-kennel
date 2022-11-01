@@ -72,11 +72,11 @@ function Footer() {
           {
             footerData.sociaLinks &&
             footerData.sociaLinks.map((item, index) => {
-              return <div key={index} className="inline-flex text-2xl bg-primary/10 text-primary p-3 rounded-full">
+              return <a href={item.link} key={index} className="inline-flex text-2xl bg-primary/10 text-primary p-3 rounded-full">
                 {
                   item.icon
                 }
-              </div>
+              </a>
             })
           }
         </div>

@@ -1,5 +1,6 @@
 import { FaWhatsapp, FaPhone } from "react-icons/fa";
 import { RiMailSendLine } from "react-icons/ri";
+import Content from "../lib/Content";
 // import CONSTANT from "../lib/constant";
 import WhatsappBtn from "./WhatsappBtn";
 
@@ -41,11 +42,11 @@ const DogInfoCard = (dogInfo: DogInfoCardProps) => {
             </div>
             <div className="divider"></div>
             <div className="flex items-center gap-5 mb-5">
-                <a href={`#`} className="btn btn-primary flex-grow"><RiMailSendLine className="text-xl mr-2"/>Email Us</a>
-                <a href={`tel:7984226239`} className="btn btn-primary text-white"><span><FaPhone className="text-xl mr-2" /></span>{`Call Now`}</a>
+                <a href={`mailto:${Content.kennelInfo.email}`} className="btn btn-primary flex-grow"><RiMailSendLine className="text-xl mr-2"/>Email Us</a>
+                <a href={`tel:${Content.kennelInfo.phone}`} className="btn btn-primary text-white"><span><FaPhone className="text-xl mr-2" /></span>{`Call Now`}</a>
             </div>
             
-            <WhatsappBtn className="btn-block" />
+            <WhatsappBtn className="btn-block" link={`https://wa.me/${Content.kennelInfo.whatsapp}`} />
         </div>
     )
 }

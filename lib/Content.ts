@@ -17,7 +17,10 @@ const Content = {
                 link: '#',
             },
         ],
-        logo: '/assets/logos/long-logo.png'
+        logo: '/assets/logos/long-logo.png',
+        whatsapp: '7984226239',
+        email: 'shivam@interlef.com',
+        phone: '7984226239'
     },
 
     menus: [

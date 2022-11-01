@@ -3,6 +3,8 @@ import WhatsappBtn from '../../WhatsappBtn'
 import Image from 'next/image'
 import Features from './Features'
 import { Fade, Bounce, Slide } from 'react-awesome-reveal'
+import Content from '../../../lib/Content'
+import Link from 'next/link'
 
 function Hero() {
   const image = '/assets/images/h1.jpg'
@@ -34,10 +36,10 @@ function Hero() {
 
               <div className="flex gap-5">
                 <div className="overflow-hidden">
-                  <Bounce delay={400}><button className='btn btn-secondary '>Enquiry</button></Bounce>
+                  <Bounce delay={400}><Link href="/contact-us"><a className='btn btn-secondary '>Enquiry</a></Link></Bounce>
                 </div>
                 <div className="overflow-hidden">
-                  <Bounce delay={500}> <WhatsappBtn className=''>Enquiry</WhatsappBtn></Bounce>
+                  <Bounce delay={500}> <WhatsappBtn className='' link={`https://wa.me/${Content.kennelInfo.whatsapp}`}>Enquiry</WhatsappBtn></Bounce>
                 </div>
                
               </div>
