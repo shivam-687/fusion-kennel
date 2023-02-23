@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fusion Kennel Website
 
-## Getting Started
+![screenshot-fusion-kennel vercel app-2023 02 23-19_29_17](https://user-images.githubusercontent.com/75787732/220928940-39817f13-a24f-4732-91f1-ff9234003f0e.png)
 
-First, run the development server:
+![screenshot-fusion-kennel vercel app-2023 02 23-19_30_33](https://user-images.githubusercontent.com/75787732/220929482-04657e33-2f78-4220-868d-807849d39f7a.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![screenshot-fusion-kennel vercel app-2023 02 23-19_30_48](https://user-images.githubusercontent.com/75787732/220929407-ae31f8ee-7861-4c6c-92e5-09859fc2cfc3.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![screenshot-fusion-kennel vercel app-2023 02 23-19_31_11](https://user-images.githubusercontent.com/75787732/220929369-424d896f-bf20-44a6-9779-3e5f05b1f5f4.png)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Are you looking for the perfect companion for your family? Look no further than our Dog Breeder Website! Our site features a wide variety of purebred puppies for sale, each of which has been bred for health, temperament, and beauty. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Built on Next.js and React, our website is lightning-fast and SEO-friendly. Using the static generation feature of Next.js, we've created a website that loads quickly and provides a seamless browsing experience for our visitors. Our site is also mobile-responsive, ensuring that you can easily browse and shop for puppies from your smartphone or tablet.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+In addition to our wide selection of puppies, our website also includes comprehensive information on each breed we offer, as well as tips for caring for your new furry friend. We pride ourselves on providing exceptional customer service and support, and we're always happy to answer any questions you may have about our puppies or the breeding process.
 
-## Learn More
+So why wait? Visit our website today to find the perfect furry companion for your family!
 
-To learn more about Next.js, take a look at the following resources:
+## Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Wide selection of purebred puppies for sale
+- Comprehensive information on each breed we offer
+- Tips for caring for your new puppy
+- Lightning-fast and SEO-friendly website
+- Mobile-responsive design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- Next.js
+- React
+- CSS modules
+- Node.js
+- Express
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We hope this description helps showcase your Dog Breeder Website in a professional and informative manner. Good luck!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
