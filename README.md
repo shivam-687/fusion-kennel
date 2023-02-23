@@ -28,9 +28,5 @@ So why wait? Visit our website today to find the perfect furry companion for you
 
 - Next.js
 - React
-- CSS modules
-- Node.js
-- Express
 
-We hope this description helps showcase your Dog Breeder Website in a professional and informative manner. Good luck!
 
